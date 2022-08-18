@@ -1,0 +1,495 @@
+* {
+    margin: 0%;
+}
+
+#navbar {
+    width: 100%;
+    height: 1300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.6fr 4fr 280px;
+}
+
+#main1 {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+}
+
+#music {
+    color: white;
+    font-size: 50px;
+}
+
+#loop {
+    color: orangered;
+    font-size: 50px;
+    margin-left: 5px;
+}
+
+#navigate {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+.nav a:hover {
+    color: orangered;
+}
+
+#submain21 {
+    display: flex;
+    align-items: center;
+    margin-left: 19px;
+}
+
+#btn1 {
+    width: 240px;
+    color: orangered;
+    border: 1px solid orangered;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#btn1:hover {
+    color: white;
+    background-color: orangered;
+}
+
+#submain211 {
+    color: white;
+    font-size: 39px;
+    font-family: Verdana;
+}
+
+#submain212 {
+    color: orangered;
+    font-size: 33px;
+    font-family: Verdana;
+}
+
+#main2 {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.icon1 {
+    padding-bottom: 10px;
+}
+
+#sponser {
+    height: 800px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 1fr;
+}
+
+#sponser1 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: orangered;
+    font-size: 40px;
+    font-family: Verdana;
+}
+
+#sponser2 {
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#sponser3 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+#spnospic1 {
+    grid-column: 1/3;
+    grid-row: 1/4;
+    background-image: url("sponser1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hoverpic {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.hoverpic:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.price {
+    color: white;
+    font-size: xx-large;
+}
+
+.packbtn {
+    display: flex;
+    justify-content: center;
+}
+
+.packbtn1 {
+    background-color: black;
+    color: white;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.packbtn1:hover {
+    background-color: white;
+    color: crimson;
+    border: 1px solid crimson;
+}
+
+#spnospic2 {
+    grid-column: 1/3;
+    grid-row: 4/7;
+    background-image: url("sponser2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#spnospic3 {
+    grid-column: 3/5;
+    grid-row: 1/7;
+    background-image: url("sponser3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#spnospic4 {
+    grid-column: 5/-1;
+    grid-row: 1/4;
+    background-image: url("sponser4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#spnospic5 {
+    grid-column: 5/-1;
+    grid-row: 4/-1;
+    background-image: url("sponser5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main3 {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.main31 {
+    width: 50%;
+    margin: auto;
+    color: white;
+    font-size: 22px;
+}
+
+.main32 {
+    color: orangered;
+    font-size: 22px;
+}
+
+.txt {
+    color: orangered;
+    font-size: 50px;
+}
+
+.btn3 {
+    background-color: orangered !important;
+}
+
+#package {
+    width: 100%;
+    height: 800px;
+    background-image: url("packagebg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.packlist {
+    background-color: crimson;
+}
+
+.cardtxt2 li {
+    color: white !important;
+}
+
+.cardtype {
+    color: white;
+    font-size: xx-large;
+}
+
+#help1 {
+    width: 100%;
+    height: 770px;
+    background-color: crimson;
+}
+
+#upperhelp {
+    background-color: crimson;
+}
+
+#innerhelp {
+    width: 75%;
+    margin: auto;
+}
+
+#helptext {
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 18px;
+}
+
+#helpcontent {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 15px;
+}
+
+.help-block {
+    width: 100%;
+    height: 400px;
+    border: 2px solid white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#helpend1 {
+    background-color: crimson;
+}
+
+.help-block-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.lihelp ul {
+    list-style: none;
+    padding-right: 4px;
+}
+
+#contact {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(to bottom, black, black, orangered);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#innerconctact1 {
+    width: 70%;
+    margin: auto;
+    height: 700px;
+}
+
+.contactaction {
+    margin-top: 35px;
+}
+
+.head {
+    color: orangered;
+    font-size: xx-large;
+}
+
+.inp1 {
+    width: 50%;
+    border: 3px solid orangered;
+    border-radius: 15px;
+}
+
+.btn5 {
+    width: 50%;
+    border: 3px solid orangered;
+    border-radius: 15px;
+    color: black;
+    background-color: orangered;
+}
+
+.btn5:hover {
+    color: black;
+    background-color: white;
+}
+
+#map {
+    margin-top: 25px;
+}
+
+#map iframe {
+    padding-right: 10px;
+    width: 100%;
+    height: 650px;
+}
+
+.icon {
+    color: white;
+    margin-top: 10px;
+}
+
+.icon i {
+    margin-right: 5px;
+}
+
+.anc2 {
+    text-decoration: none;
+    color: white;
+}
+
+#regform {
+    width: 70%;
+    height: 500px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#regtitle {
+    color: orangered;
+    font-size: xx-large;
+}
+
+.reginp {
+    width: 50%;
+    margin-top: 15px;
+    border: 2px solid orangered;
+    border-radius: 15px;
+}
+
+.dropreg {
+    color: orangered;
+    font-size: large;
+}
+
+.formdrop {
+    margin-top: 15px;
+}
+
+.dropdown {
+    width: 50%;
+    background-color: orangered;
+    color: white;
+}
+
+#regdetail {
+    border: 2px solid orangered;
+    padding: 25px;
+    background-color: white;
+}
+
+#regbtn {
+    width: 50%;
+    color: white;
+    margin-top: 15px;
+    background-color: orangered;
+    border: 2px solid orangered;
+    border-radius: 15px;
+}
+
+#regformanimate {
+    border: 2px solid orangered;
+}
+
+#regformanimate {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#letsmeet {
+    color: white;
+    font-size: x-large;
+}
+
+.event {
+    color: orangered;
+    font-size: x-large;
+}
+
+#body {
+    background-image: url("concert.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#userentry {
+    width: 90%;
+    margin: 20px auto;
+    height: 500px;
+}
+
+#adminheading {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    color: blue;
+}
+
+#adminheading h5 {
+    font-size: 50px;
+}
+
+#entrytable {
+    background-color: darkblue;
+    color: white;
+}

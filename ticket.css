@@ -1,0 +1,44 @@
+#ticket {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: xx-large;
+    color: orangered;
+}
+
+#ticket1 {
+    width: 60%;
+    margin: 15px auto;
+    height: 550px;
+    background-image: url("ticket.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ticketdata {
+    color: white;
+    font-size: medium;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#btndownload {
+    display: flex;
+    justify-content: center;
+}
+
+#download {
+    width: 200px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 30px;
+    background: linear-gradient(to right, black, purple);
+}
+
+#download:hover {
+    color: black;
+    background: white;
+}
